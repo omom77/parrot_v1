@@ -1,9 +1,9 @@
 <launch>
         <let name="urdf_path" 
-                value="$(find-pkg-share parrot_v1_description)/urdf/parrot_v1.urdf" />
+                value="$(find-pkg-share parrot_v1_description)/urdf/parrot_v1_main.urdf.xacro" />
         
         <let name="rviz_config_parrot_v1" 
-                value="$(find-pkg-share parrot_v1_description)/rviz/parrot_v1_sim.rviz" />
+                value="$(find-pkg-share parrot_v1_description)/rviz/parrot_v1_sim_2.rviz" />
     
         <node pkg="robot_state_publisher" exec="robot_state_publisher">
             <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
