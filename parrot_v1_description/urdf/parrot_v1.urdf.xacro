@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
+    
     <!-- All dimensions multiplied by a factor of 10 for simulation -->
-
-    <xacro:property name="bp_length" value="0.067" />
-    <xacro:property name="bp_width" value="0.143" />
-    <xacro:property name="bp_height" value="0.0425" />
+    <!-- <box size="0.067 0.143 0.0425"/>    -->
+    <xacro:property name="bp_length" value="0.67" />
+    <xacro:property name="bp_width" value="1.43" />
+    <xacro:property name="bp_height" value="0.425" />
 
     <link name="base_footprint_v1" />
 
@@ -13,17 +14,28 @@
         <visual>
             <geometry>
                 <!-- Original Dimensions -->
-                <!-- <box size="0.067 0.143 0.0425"/>    -->
-                <box size="${10 * bp_length} ${10 * bp_width} ${10 * bp_height}"/>   
+                <box size="${bp_length} ${bp_width} ${bp_height}"/>   
             </geometry>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name="green"/>
         </visual>
+        <collision>
+            <geometry>
+                <!-- Original Dimensions -->
+                <!-- <box size="0.067 0.143 0.0425"/>    -->
+                <box size="${bp_length} ${bp_width} ${bp_height}"/>   
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </collision>
+        <xacro:box_inertia m="1.0" 
+                           l="${bp_length}" w="${bp_width}" h="${bp_height}" 
+                           xyz="0 0 0" rpy="0 0 0" />
     </link>
 
     <joint name="base_footprint_link_joint" type="fixed">
         <parent link="base_footprint_v1"/>
         <child link="base_parrot"/>
-        <origin xyz="0 0 ${(bp_height * 10) /2}" rpy="0.0 0.0 0.0"/>
+        <origin xyz="0 0 ${bp_height /2}" rpy="0.0 0.0 0.0"/>
     </joint>
 
 </robot>
