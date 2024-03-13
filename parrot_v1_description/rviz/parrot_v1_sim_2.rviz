@@ -1,6 +1,6 @@
 Panels:
   - Class: rviz_common/Displays
-    Help Height: 78
+    Help Height: 204
     Name: Displays
     Property Tree Widget:
       Expanded:
@@ -12,7 +12,7 @@ Panels:
         - /RobotModel1/Description Topic1
         - /TF1
       Splitter Ratio: 0.5
-    Tree Height: 719
+    Tree Height: 593
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -79,6 +79,26 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        link_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Mass Properties:
         Inertia: false
         Mass: false
@@ -96,6 +116,14 @@ Visualization Manager:
           Value: true
         base_parrot:
           Value: true
+        link_1:
+          Value: true
+        link_2:
+          Value: true
+        link_3:
+          Value: true
+        link_4:
+          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
@@ -104,7 +132,11 @@ Visualization Manager:
       Tree:
         base_footprint_v1:
           base_parrot:
-            {}
+            link_1:
+              link_2:
+                link_3:
+                  link_4:
+                    {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -168,10 +200,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.2303987294435501
+      Pitch: -0.024601291865110397
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.228560447692871
+      Yaw: 5.713575839996338
     Saved: ~
 Window Geometry:
   Displays:

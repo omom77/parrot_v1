@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_name">
+    <gazebo reference="base_parrot">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
+    <gazebo reference="link_1">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
+    <gazebo reference="link_2">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
+    <gazebo reference="link_3">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
+    <gazebo reference="link_5">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
+</robot>
