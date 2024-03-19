@@ -142,7 +142,7 @@
         <origin xyz="0 0 ${bp_height /2}" rpy="0.0 0.0 0.0"/>
     </joint>
 
-    <joint name="base_j1_joint" type="revolute">
+    <joint name="joint_1" type="revolute">
         <parent link="base_parrot"/>
         <child link="link_1"/>
         <origin xyz="0 0 ${bp_height/2 + l1_height/2}" rpy="0 0 0"/>
@@ -150,7 +150,7 @@
         <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
 
-    <joint name="link_1_2_joint" type="revolute">
+    <joint name="joint_2" type="revolute">
         <parent link="link_1"/>
         <child link="link_2"/>
         <origin xyz="0 0 0${l1_height/2 + l12_offset}" rpy="0 0 0"/>
@@ -158,7 +158,7 @@
         <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
     
-    <joint name="link_2_3_joint" type="revolute">
+    <joint name="joint_3" type="revolute">
         <parent link="link_2"/>
         <child link="link_3"/>
         <origin xyz="0 0 0.674" rpy="0 0 0"/>
@@ -166,12 +166,27 @@
         <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
 
-    <joint name="link_3_4_joint" type="revolute">
+    <joint name="joint_4" type="revolute">
         <parent link="link_3"/>
         <child link="link_4"/>
         <origin xyz="0 0 0.674" rpy="0 0 0"/>
         <axis xyz="1 0 0"/>
         <limit lower="${pi /2}" upper="${-pi /2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
+
+    <xacro:macro name="default_transmission" params="suffix" >
+        <transmission name="transmission_${suffix}">
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name="motor_${suffix}" />
+            <joint name="$joint_${suffix}" >
+                <mechanical_reduction>1.0</mechanical_reduction>
+            </joint>
+        </transmission>
+    </xacro:macro>
+
+    <xacro:default_transmission suffix="1" />
+    <xacro:default_transmission suffix="2" />
+    <xacro:default_transmission suffix="3" />
+    <xacro:default_transmission suffix="4" />
 
 </robot>

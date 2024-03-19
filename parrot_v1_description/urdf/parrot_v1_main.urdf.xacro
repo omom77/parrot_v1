@@ -3,4 +3,5 @@
     <xacro:include filename="common_properties.urdf.xacro" />
     <xacro:include filename="parrot_v1.urdf.xacro" />    
     <xacro:include filename="parrot_v1_gazebo.urdf.xacro" />    
+    <xacro:include filename="parrot_v1_control.xacro" />    
 </robot> 

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="parrot_v1">
+    <ros2_control name="RobotSystem" type="system">
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+        <joint name="joint_1" >
+            <hardware_interface name="position">
+                <param name="min">-${pi / 2}</param>
+                <param name="max">${pi / 2}</param>
+            </hardware_interface>
+            <state_interface/>
+        </joint>
+        <joint name="joint_2" >
+            <hardware_interface name="position">
+                <param name="min">-${pi / 2}</param>
+                <param name="max">${pi / 2}</param>
+            </hardware_interface>
+            <state_interface/>
+        </joint>
+        <joint name="joint_3" >
+            <hardware_interface name="position">
+                <param name="min">-${pi /2}</param>
+                <param name="max">${pi / 2}</param>
+            </hardware_interface>
+            <state_interface/>
+        </joint>
+        <joint name="joint_4" >
+            <hardware_interface name="position">
+                <param name="min">0</param>
+                <param name="max">${pi / 2}</param>
+            </hardware_interface>
+            <state_interface/>
+        </joint>
+    </ros2_control>
+</robot>
