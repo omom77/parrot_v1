@@ -38,9 +38,9 @@ gripper_controller:
       
     command_interfaces:
       - position
-
+# 
     state_interfaces:
       - position
-
+# 
     open_loop_control: true
     allow_integration_in_goal_trajectories: true

@@ -4,34 +4,34 @@
         <hardware>
             <plugin>gazebo_ros2_control/GazeboSystem</plugin>
         </hardware>
-
+        joint
         <joint name="joint_1" >
-            <hardware_interface name="position">
+            <command_interface name="position">
                 <param name="min">-${pi / 2}</param>
                 <param name="max">${pi / 2}</param>
-            </hardware_interface>
-            <state_interface/>
+            </command_interface>
+            <state_interface name="position"/>
         </joint>
         <joint name="joint_2" >
-            <hardware_interface name="position">
+            <command_interface name="position">
                 <param name="min">-${pi / 2}</param>
                 <param name="max">${pi / 2}</param>
-            </hardware_interface>
-            <state_interface/>
+            </command_interface>
+            <state_interface name="position"/>
         </joint>
         <joint name="joint_3" >
-            <hardware_interface name="position">
+            <command_interface name="position">
                 <param name="min">-${pi /2}</param>
                 <param name="max">${pi / 2}</param>
-            </hardware_interface>
-            <state_interface/>
+            </command_interface>
+            <state_interface name="position"/>
         </joint>
         <joint name="joint_4" >
-            <hardware_interface name="position">
+            <command_interface name="position">
                 <param name="min">0</param>
                 <param name="max">${pi / 2}</param>
-            </hardware_interface>
-            <state_interface/>
+            </command_interface>
+            <state_interface name="position"/>
         </joint>
     </ros2_control>
 </robot>
