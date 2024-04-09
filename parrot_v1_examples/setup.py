@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'simple_action_server = parrot_v1_examples.simple_action_server:main'
+            'simple_action_server = parrot_v1_examples.simple_action_server:main',
+            'simple_action_client = parrot_v1_examples.simple_action_client:main'
         ],
     },
 )
