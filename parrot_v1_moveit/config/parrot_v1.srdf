@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="parrot_v1_main">
+    <!-- Add the gripper values -->
+    <group name="arm">
+        <joint name="base_footprint_v1"/>
+        <joint name="joint_1"/>
+        <joint name="joint_2"/>
+        <joint name="joint_3"/>
+
+        <!-- <joint name="horizontal_arm_to_claw_support"/> -->
+
+    </group>
+
+    <group name="gripper">
+        <joint name="joint_4"/>    
+    </group>
+
+    <group_state name="home" group="arm">
+        <joint name="joint_1" value="0"/>    
+        <joint name="joint_2" value="0"/>    
+        <joint name="joint_3" value="0"/>    
+    </group_state>
+
+    <group_state name="home" group="gripper">
+        <joint name="joint_4" value="0"/>
+    </group_state>
+
+    <!-- moveit will not check for collisions between these 2 links -->
+    <!-- Disable collision between all the links and gripper parts of the robot -->
+    <disable_collision link1="base_parrot" link2="link_1" reason="adjascent" />
+    <disable_collision link1="base_parrot" link2="link_2" reason="adjascent" />
+    <disable_collision link1="link_1" link2="link_2" reason="never" />
+    <disable_collision link1="link_1" link2="link_3" reason="never" />
+    <disable_collision link1="link_2" link2="link_3" reason="never" />
+    <disable_collision link1="base_parrot" link2="link_3" reason="never" />
+
+
+</robot>

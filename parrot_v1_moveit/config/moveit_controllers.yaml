@@ -1,0 +1,25 @@
+# connect moveit library with ros2 control library
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    # 2 controllers we have to manage for our robot
+    - arm_controller
+    - gripper_controller
+
+arm_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: True
+  joints:
+  # state the joints controlled by this controller
+    - joint_1
+    - joint_2
+    - joint_3
+
+  gripper_controller:
+    action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: True
+  joints:
+    - joint_4

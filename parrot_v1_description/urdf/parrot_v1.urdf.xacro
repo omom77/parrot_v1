@@ -136,7 +136,7 @@
                            xyz="0 0 0" rpy="0 0 0" />
     </link>
 
-    <joint name="base_footprint_link_joint" type="fixed">
+    <joint name="root_joint" type="fixed">
         <parent link="base_footprint_v1"/>
         <child link="base_parrot"/>
         <origin xyz="0 0 ${bp_height /2}" rpy="0.0 0.0 0.0"/>
