@@ -2,7 +2,7 @@
 <robot name="parrot_v1_main">
     <!-- Add the gripper values -->
     <group name="arm">
-        <joint name="base_footprint_v1"/>
+        <joint name="virtual_joint"/>
         <joint name="joint_1"/>
         <joint name="joint_2"/>
         <joint name="joint_3"/>
@@ -32,7 +32,10 @@
     <disable_collision link1="link_1" link2="link_2" reason="never" />
     <disable_collision link1="link_1" link2="link_3" reason="never" />
     <disable_collision link1="link_2" link2="link_3" reason="never" />
-    <disable_collision link1="base_parrot" link2="link_3" reason="never" />
+    <disable_collision link1="link_2" link2="link_3" reason="never" />
+    <disable_collision link1="link_3" link2="link_4" reason="never" />
+    <disable_collision link1="link_2" link2="link_4" reason="never" />
+    <disable_collision link1="link_1" link2="link_4" reason="never" />
 
 
 </robot>

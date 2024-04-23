@@ -14,15 +14,34 @@ def generate_launch_description():
 
     is_sim = LaunchConfiguration("is_sim")
 
-    moveit_config = ( 
-        MoveItConfigsBuilder("parrot_v1", 
-                                         package_name="parrot_v1_moveit")
-                                         .robot_description(file_path=os.path.join(get_package_share_directory(
-                                             "parrot_v1_description"), "urdf", "parrot_v1_main.urdf.xacro"))
-                                         .robot_description_semantic(file_path="config/parrot_v1.srdf")
-                                         .trajectory_execution(file_path="config/moveit_controllers.yaml")
-                                         .to_moveit_configs()
+    moveit_config = (
+    MoveItConfigsBuilder("parrot_v1", package_name="parrot_v1_moveit")
+    .robot_description(
+        file_path=os.path.join(
+            get_package_share_directory("parrot_v1_description"),
+            "urdf",
+            "parrot_v1_main.urdf.xacro"
+        )
     )
+    .robot_description_semantic(
+        file_path=os.path.join(
+            get_package_share_directory("parrot_v1_moveit"),
+            "config",
+            "parrot_v1.srdf",
+        )
+    )
+    .trajectory_execution(
+        file_path=os.path.join(
+            get_package_share_directory("parrot_v1_moveit"),
+            "config",
+            "moveit_controllers.yaml"
+        )
+    )
+    .to_moveit_configs()
+)
+
+
+
 
     move_group_node = Node(
         package="moveit_ros_move_group",
