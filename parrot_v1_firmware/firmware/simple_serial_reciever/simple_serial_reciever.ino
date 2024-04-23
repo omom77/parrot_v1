@@ -1,4 +1,4 @@
-#define LED_PIN 13
+#define LED_PIN 6
 void setup() {
   // put your setup code here, to run once:
   pinMode(LED_PIN, LOW);
