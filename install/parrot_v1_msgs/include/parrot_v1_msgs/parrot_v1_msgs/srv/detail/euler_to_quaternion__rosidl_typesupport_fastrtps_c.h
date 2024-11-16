@@ -1,0 +1,1 @@
+/home/om/parrot_ws/src/build/parrot_v1_msgs/rosidl_typesupport_fastrtps_c/parrot_v1_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h

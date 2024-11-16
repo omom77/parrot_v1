@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating parrot_v1_comms_test.egg-info
+writing parrot_v1_comms_test.egg-info/PKG-INFO
+writing dependency_links to parrot_v1_comms_test.egg-info/dependency_links.txt
+writing entry points to parrot_v1_comms_test.egg-info/entry_points.txt
+writing requirements to parrot_v1_comms_test.egg-info/requires.txt
+writing top-level names to parrot_v1_comms_test.egg-info/top_level.txt
+writing manifest file 'parrot_v1_comms_test.egg-info/SOURCES.txt'
+reading manifest file 'parrot_v1_comms_test.egg-info/SOURCES.txt'
+writing manifest file 'parrot_v1_comms_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/om/parrot_ws/src/install/parrot_v1_comms_test/lib/python3.10/site-packages/parrot-v1-comms-test.egg-link (link to .)
+Installing addints script to /home/om/parrot_ws/src/install/parrot_v1_comms_test/lib/parrot_v1_comms_test
+
+Installed /home/om/parrot_ws/src/build/parrot_v1_comms_test
+running symlink_data
+creating /home/om/parrot_ws/src/install/parrot_v1_comms_test/share/ament_index
+creating /home/om/parrot_ws/src/install/parrot_v1_comms_test/share/ament_index/resource_index
+creating /home/om/parrot_ws/src/install/parrot_v1_comms_test/share/ament_index/resource_index/packages
+symbolically linking /home/om/parrot_ws/src/build/parrot_v1_comms_test/resource/parrot_v1_comms_test -> /home/om/parrot_ws/src/install/parrot_v1_comms_test/share/ament_index/resource_index/packages
+symbolically linking /home/om/parrot_ws/src/build/parrot_v1_comms_test/package.xml -> /home/om/parrot_ws/src/install/parrot_v1_comms_test/share/parrot_v1_comms_test

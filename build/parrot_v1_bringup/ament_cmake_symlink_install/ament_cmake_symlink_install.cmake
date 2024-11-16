@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "DESTINATION" "share/parrot_v1_bringup")
-ament_cmake_symlink_install_directory("/home/om/parrot_ws/src/parrot_v1_bringup" DIRECTORY "launch" "DESTINATION" "share/parrot_v1_bringup")
+# install(DIRECTORY "launch" "worlds" "DESTINATION" "share/parrot_v1_bringup")
+ament_cmake_symlink_install_directory("/home/om/parrot_ws/src/parrot_v1_bringup" DIRECTORY "launch" "worlds" "DESTINATION" "share/parrot_v1_bringup")
 
 # install(FILES "/home/om/parrot_ws/src/build/parrot_v1_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/parrot_v1_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/om/parrot_ws/src/parrot_v1_bringup" FILES "/home/om/parrot_ws/src/build/parrot_v1_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/parrot_v1_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

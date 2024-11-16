@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from parrot_v1_msgs/srv/EulerToQuaternion.srv
+// generated code does not contain a copyright notice
+
+
+module parrot_v1_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request" "\n"
+      " 3 Euler Angles to be converted to Quaternion")
+    struct EulerToQuaternion_Request {
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+    @verbatim (language="comment", text=
+      "Response" "\n"
+      "4 Elements of quaternion that are the result of the conversion")
+    struct EulerToQuaternion_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      double w;
+    };
+  };
+};

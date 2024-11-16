@@ -1,0 +1,9 @@
+{
+  "package_name": "parrot_v1_msgs",
+  "non_idl_tuples": [
+    "/home/om/parrot_ws/src/parrot_v1_msgs:srv/AddTwoInts.srv",
+    "/home/om/parrot_ws/src/parrot_v1_msgs:srv/EulerToQuaternion.srv",
+    "/home/om/parrot_ws/src/parrot_v1_msgs:srv/QuaternionToEuler.srv",
+    "/home/om/parrot_ws/src/parrot_v1_msgs:action/Fibonacci.action"
+  ]
+}

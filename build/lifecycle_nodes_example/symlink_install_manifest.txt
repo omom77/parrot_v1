@@ -1,0 +1,16 @@
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/lib/lifecycle_nodes_example/simple_lifecycle_node
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/ament_index/resource_index/package_run_dependencies/lifecycle_nodes_example
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/ament_index/resource_index/parent_prefix_path/lifecycle_nodes_example
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/environment/ament_prefix_path.sh
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/environment/ament_prefix_path.dsv
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/environment/path.sh
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/environment/path.dsv
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/local_setup.bash
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/local_setup.sh
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/local_setup.zsh
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/local_setup.dsv
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/package.dsv
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/ament_index/resource_index/packages/lifecycle_nodes_example
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/cmake/lifecycle_nodes_exampleConfig.cmake
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/cmake/lifecycle_nodes_exampleConfig-version.cmake
+/home/om/parrot_ws/src/install/lifecycle_nodes_example/share/lifecycle_nodes_example/package.xml

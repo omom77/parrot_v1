@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/om/parrot_ws/src/build/lifecycle_nodes_example/simple_lifecycle_node" "TARGETS" "simple_lifecycle_node" "DESTINATION" "lib/lifecycle_nodes_example")

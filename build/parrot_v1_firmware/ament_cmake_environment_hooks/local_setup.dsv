@@ -1,0 +1,2 @@
+source;share/parrot_v1_firmware/environment/ament_prefix_path.sh
+source;share/parrot_v1_firmware/environment/path.sh

@@ -1,0 +1,1 @@
+/home/om/parrot_ws/src/build/parrot_v1_msgs/rosidl_generator_py/parrot_v1_msgs/srv/_quaternion_to_euler.py

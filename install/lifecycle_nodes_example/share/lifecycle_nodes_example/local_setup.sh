@@ -1,0 +1,1 @@
+/home/om/parrot_ws/src/build/lifecycle_nodes_example/ament_cmake_environment_hooks/local_setup.sh

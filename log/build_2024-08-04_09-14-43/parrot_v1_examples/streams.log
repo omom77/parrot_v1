@@ -1,0 +1,38 @@
+[0.990s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_examples': AMENT_PREFIX_PATH=/home/om/parrot_ws/src/install/parrot_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/parrot_ws/src/install/parrot_v1_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/om/parrot_ws/src/install/parrot_v1_msgs/lib:/home/om/navros_ws/install/serial_motor_demo_msgs/lib:/home/om/parrot_ws/install/parrot_v1_msgs/lib:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_remote/lib:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_cpp_examples/lib:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_msgs/lib:/home/om/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/om/parrot_ws/src/build/parrot_v1_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/parrot_ws/src/install/parrot_v1_examples/lib/python3.10/site-packages:/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/om/parrot_ws/src/build/parrot_v1_examples/build --no-deps symlink_data
+[1.294s] running develop
+[1.295s] /home/om/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.295s] !!
+[1.295s] 
+[1.296s]         ********************************************************************************
+[1.296s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.296s]         Instead, use pypa/build, pypa/installer or other
+[1.296s]         standards-based tools.
+[1.296s] 
+[1.296s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.296s]         ********************************************************************************
+[1.296s] 
+[1.297s] !!
+[1.297s]   easy_install.initialize_options(self)
+[1.479s] running egg_info
+[1.479s] creating parrot_v1_examples.egg-info
+[1.492s] writing parrot_v1_examples.egg-info/PKG-INFO
+[1.492s] writing dependency_links to parrot_v1_examples.egg-info/dependency_links.txt
+[1.492s] writing entry points to parrot_v1_examples.egg-info/entry_points.txt
+[1.493s] writing requirements to parrot_v1_examples.egg-info/requires.txt
+[1.493s] writing top-level names to parrot_v1_examples.egg-info/top_level.txt
+[1.493s] writing manifest file 'parrot_v1_examples.egg-info/SOURCES.txt'
+[1.519s] reading manifest file 'parrot_v1_examples.egg-info/SOURCES.txt'
+[1.519s] writing manifest file 'parrot_v1_examples.egg-info/SOURCES.txt'
+[1.534s] running build_ext
+[1.534s] Creating /home/om/parrot_ws/src/install/parrot_v1_examples/lib/python3.10/site-packages/parrot-v1-examples.egg-link (link to .)
+[1.534s] Installing simple_action_client script to /home/om/parrot_ws/src/install/parrot_v1_examples/lib/parrot_v1_examples
+[1.535s] Installing simple_action_server script to /home/om/parrot_ws/src/install/parrot_v1_examples/lib/parrot_v1_examples
+[1.535s] 
+[1.535s] Installed /home/om/parrot_ws/src/build/parrot_v1_examples
+[1.535s] running symlink_data
+[1.535s] creating /home/om/parrot_ws/src/install/parrot_v1_examples/share/ament_index
+[1.535s] creating /home/om/parrot_ws/src/install/parrot_v1_examples/share/ament_index/resource_index
+[1.535s] creating /home/om/parrot_ws/src/install/parrot_v1_examples/share/ament_index/resource_index/packages
+[1.535s] symbolically linking /home/om/parrot_ws/src/build/parrot_v1_examples/resource/parrot_v1_examples -> /home/om/parrot_ws/src/install/parrot_v1_examples/share/ament_index/resource_index/packages
+[1.535s] symbolically linking /home/om/parrot_ws/src/build/parrot_v1_examples/package.xml -> /home/om/parrot_ws/src/install/parrot_v1_examples/share/parrot_v1_examples
+[1.579s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_examples' returned '0': AMENT_PREFIX_PATH=/home/om/parrot_ws/src/install/parrot_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/parrot_ws/src/install/parrot_v1_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/om/parrot_ws/src/install/parrot_v1_msgs/lib:/home/om/navros_ws/install/serial_motor_demo_msgs/lib:/home/om/parrot_ws/install/parrot_v1_msgs/lib:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_remote/lib:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_cpp_examples/lib:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_msgs/lib:/home/om/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/om/parrot_ws/src/build/parrot_v1_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/parrot_ws/src/install/parrot_v1_examples/lib/python3.10/site-packages:/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/om/parrot_ws/src/build/parrot_v1_examples/build --no-deps symlink_data

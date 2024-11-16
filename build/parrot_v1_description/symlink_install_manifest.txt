@@ -1,5 +1,7 @@
 /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/common_properties.urdf.xacro
 /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/parrot_v1.urdf.xacro
+/home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/parrot_v1_control.xacro
+/home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/parrot_v1_gazebo.urdf.xacro
 /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//urdf/parrot_v1_main.urdf.xacro
 /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/base_parrot.dae
 /home/om/parrot_ws/src/install/parrot_v1_description/share/parrot_v1_description//meshes/dynamic_gripper_parrot.dae

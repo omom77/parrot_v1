@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+parrot_v1_comms_test/__init__.py
+parrot_v1_comms_test/addints.py
+parrot_v1_comms_test.egg-info/PKG-INFO
+parrot_v1_comms_test.egg-info/SOURCES.txt
+parrot_v1_comms_test.egg-info/dependency_links.txt
+parrot_v1_comms_test.egg-info/entry_points.txt
+parrot_v1_comms_test.egg-info/requires.txt
+parrot_v1_comms_test.egg-info/top_level.txt
+parrot_v1_comms_test.egg-info/zip-safe
+resource/parrot_v1_comms_test

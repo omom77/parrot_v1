@@ -1,0 +1,5 @@
+setup.py
+parrot_v1_utils.egg-info/PKG-INFO
+parrot_v1_utils.egg-info/SOURCES.txt
+parrot_v1_utils.egg-info/dependency_links.txt
+parrot_v1_utils.egg-info/top_level.txt

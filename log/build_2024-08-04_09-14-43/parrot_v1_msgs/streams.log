@@ -1,0 +1,284 @@
+[0.049s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/om/parrot_ws/src/parrot_v1_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/om/parrot_ws/src/install/parrot_v1_msgs
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.251s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.437s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.824s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.888s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.982s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.054s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.067s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.082s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.195s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.596s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.062s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.091s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.091s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.091s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.112s] -- Found PythonExtra: .so  
+[2.199s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.209s] -- Configuring done
+[2.243s] -- Generating done
+[2.245s] -- Build files have been written to: /home/om/parrot_ws/src/build/parrot_v1_msgs
+[2.255s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/om/parrot_ws/src/parrot_v1_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/om/parrot_ws/src/install/parrot_v1_msgs
+[2.256s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/om/parrot_ws/src/build/parrot_v1_msgs -- -j16 -l16
+[2.302s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.313s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.324s] [  3%] Built target ament_cmake_python_symlink_parrot_v1_msgs
+[2.532s] running egg_info
+[2.533s] creating parrot_v1_msgs.egg-info
+[2.548s] writing parrot_v1_msgs.egg-info/PKG-INFO
+[2.548s] writing dependency_links to parrot_v1_msgs.egg-info/dependency_links.txt
+[2.549s] writing top-level names to parrot_v1_msgs.egg-info/top_level.txt
+[2.549s] writing manifest file 'parrot_v1_msgs.egg-info/SOURCES.txt'
+[2.595s] reading manifest file 'parrot_v1_msgs.egg-info/SOURCES.txt'
+[2.595s] writing manifest file 'parrot_v1_msgs.egg-info/SOURCES.txt'
+[2.630s] [  3%] Built target ament_cmake_python_build_parrot_v1_msgs_egg
+[2.897s] [  3%] Built target parrot_v1_msgs__cpp
+[2.911s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.911s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.912s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.933s] [ 12%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_c.dir/rosidl_generator_c/parrot_v1_msgs/srv/detail/euler_to_quaternion__functions.c.o[0m
+[2.933s] [ 12%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_c.dir/rosidl_generator_c/parrot_v1_msgs/srv/detail/quaternion_to_euler__functions.c.o[0m
+[2.933s] [ 14%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_c.dir/rosidl_generator_c/parrot_v1_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[2.937s] [ 16%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_c.dir/rosidl_generator_c/parrot_v1_msgs/action/detail/fibonacci__functions.c.o[0m
+[3.069s] [ 18%] [32m[1mLinking C shared library libparrot_v1_msgs__rosidl_generator_c.so[0m
+[3.114s] [ 18%] Built target parrot_v1_msgs__rosidl_generator_c
+[3.128s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.128s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.128s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.329s] [ 29%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/parrot_v1_msgs/action/fibonacci__type_support.cpp.o[0m
+[3.330s] [ 29%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/parrot_v1_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[3.330s] [ 29%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/parrot_v1_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[3.330s] [ 30%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/parrot_v1_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[3.596s] [ 36%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/parrot_v1_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o[0m
+[3.596s] [ 36%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/parrot_v1_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[3.597s] [ 36%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/parrot_v1_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[3.598s] [ 38%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/parrot_v1_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o[0m
+[3.608s] [ 40%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/parrot_v1_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[3.611s] [ 41%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/parrot_v1_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[3.615s] [ 43%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/parrot_v1_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[3.649s] [ 45%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/parrot_v1_msgs/action/fibonacci__type_support.cpp.o[0m
+[3.672s] [ 47%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/parrot_v1_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[3.673s] [ 49%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/parrot_v1_msgs/srv/detail/euler_to_quaternion__type_support.cpp.o[0m
+[3.689s] [ 50%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/parrot_v1_msgs/srv/detail/quaternion_to_euler__type_support.cpp.o[0m
+[3.692s] [ 52%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/parrot_v1_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[3.739s] [ 54%] [32m[1mLinking CXX shared library libparrot_v1_msgs__rosidl_typesupport_c.so[0m
+[3.828s] [ 54%] Built target parrot_v1_msgs__rosidl_typesupport_c
+[3.891s] [ 56%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/parrot_v1_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[3.894s] [ 58%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/parrot_v1_msgs/action/detail/fibonacci__type_support.c.o[0m
+[3.900s] [ 60%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/parrot_v1_msgs/srv/detail/euler_to_quaternion__type_support.c.o[0m
+[3.902s] [ 61%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/parrot_v1_msgs/srv/detail/quaternion_to_euler__type_support.c.o[0m
+[3.946s] [ 63%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/parrot_v1_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[3.965s] [ 65%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/parrot_v1_msgs/srv/detail/quaternion_to_euler__type_support_c.cpp.o[0m
+[3.975s] [ 67%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/parrot_v1_msgs/srv/detail/euler_to_quaternion__type_support_c.cpp.o[0m
+[3.986s] [ 69%] [32mBuilding CXX object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/parrot_v1_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[4.021s] [ 70%] [32m[1mLinking C shared library libparrot_v1_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.061s] [ 72%] [32m[1mLinking CXX shared library libparrot_v1_msgs__rosidl_typesupport_cpp.so[0m
+[4.161s] [ 72%] Built target parrot_v1_msgs__rosidl_typesupport_introspection_c
+[4.187s] [ 72%] Built target parrot_v1_msgs__rosidl_typesupport_cpp
+[4.462s] [ 74%] [32m[1mLinking CXX shared library libparrot_v1_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.500s] [ 76%] [32m[1mLinking CXX shared library libparrot_v1_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.511s] [ 78%] [32m[1mLinking CXX shared library libparrot_v1_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.546s] [ 78%] Built target parrot_v1_msgs__rosidl_typesupport_fastrtps_cpp
+[4.587s] [ 78%] Built target parrot_v1_msgs__rosidl_typesupport_fastrtps_c
+[4.595s] [ 78%] Built target parrot_v1_msgs__rosidl_typesupport_introspection_cpp
+[4.620s] [ 78%] Built target parrot_v1_msgs
+[4.646s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.644s] [ 80%] Built target parrot_v1_msgs__py
+[5.671s] [ 87%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_py.dir/rosidl_generator_py/parrot_v1_msgs/srv/_quaternion_to_euler_s.c.o[0m
+[5.671s] [ 87%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_py.dir/rosidl_generator_py/parrot_v1_msgs/srv/_add_two_ints_s.c.o[0m
+[5.671s] [ 87%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_py.dir/rosidl_generator_py/parrot_v1_msgs/action/_fibonacci_s.c.o[0m
+[5.671s] [ 87%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_generator_py.dir/rosidl_generator_py/parrot_v1_msgs/srv/_euler_to_quaternion_s.c.o[0m
+[5.807s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/parrot_v1_msgs/libparrot_v1_msgs__rosidl_generator_py.so[0m
+[5.853s] [ 89%] Built target parrot_v1_msgs__rosidl_generator_py
+[5.878s] [ 94%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/parrot_v1_msgs/_parrot_v1_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.879s] [ 94%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/parrot_v1_msgs/_parrot_v1_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.879s] [ 94%] [32mBuilding C object CMakeFiles/parrot_v1_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/parrot_v1_msgs/_parrot_v1_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.006s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.006s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.007s] [100%] [32m[1mLinking C shared library rosidl_generator_py/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.052s] [100%] Built target parrot_v1_msgs__rosidl_typesupport_c__pyext
+[6.052s] [100%] Built target parrot_v1_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.052s] [100%] Built target parrot_v1_msgs__rosidl_typesupport_introspection_c__pyext
+[6.067s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/om/parrot_ws/src/build/parrot_v1_msgs -- -j16 -l16
+[6.225s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/om/parrot_ws/src/build/parrot_v1_msgs
+[6.234s] -- Install configuration: ""
+[6.234s] -- Execute custom install script
+[6.235s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/ament_index/resource_index/rosidl_interfaces/parrot_v1_msgs
+[6.246s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__functions.h
+[6.256s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__struct.h
+[6.267s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__type_support.h
+[6.277s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/fibonacci.h
+[6.288s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.298s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/add_two_ints.h
+[6.309s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__functions.h
+[6.320s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__struct.h
+[6.331s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__type_support.h
+[6.342s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__functions.h
+[6.352s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__struct.h
+[6.363s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__type_support.h
+[6.373s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__functions.h
+[6.384s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__struct.h
+[6.394s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__type_support.h
+[6.405s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/euler_to_quaternion.h
+[6.416s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/quaternion_to_euler.h
+[6.428s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/library_path.sh
+[6.440s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/library_path.dsv
+[6.451s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[6.462s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.474s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[6.485s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h
+[6.495s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_c.h
+[6.506s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__builder.hpp
+[6.517s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__struct.hpp
+[6.528s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__traits.hpp
+[6.539s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/fibonacci.hpp
+[6.549s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/add_two_ints.hpp
+[6.560s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__builder.hpp
+[6.571s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__struct.hpp
+[6.581s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__traits.hpp
+[6.593s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__builder.hpp
+[6.604s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__struct.hpp
+[6.616s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__traits.hpp
+[6.627s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__builder.hpp
+[6.643s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__struct.hpp
+[6.654s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__traits.hpp
+[6.665s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/euler_to_quaternion.hpp
+[6.675s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/quaternion_to_euler.hpp
+[6.685s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[6.695s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.705s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.716s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[6.727s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[6.738s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[6.747s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.757s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[6.767s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+[6.777s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+[6.789s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[6.799s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[6.809s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_cpp.hpp
+[6.819s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/include/parrot_v1_msgs/parrot_v1_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_cpp.hpp
+[6.830s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/pythonpath.sh
+[6.840s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/pythonpath.dsv
+[6.851s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.861s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.871s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.882s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.893s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/__init__.py
+[6.903s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/_parrot_v1_msgs_s.ep.rosidl_typesupport_c.c
+[6.913s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/_parrot_v1_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.923s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/_parrot_v1_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.934s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/action/__init__.py
+[6.945s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/action/_fibonacci.py
+[6.955s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/action/_fibonacci_s.c
+[6.965s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/libparrot_v1_msgs__rosidl_generator_py.so
+[6.975s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.986s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.997s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.007s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/__init__.py
+[7.018s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_add_two_ints.py
+[7.029s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_add_two_ints_s.c
+[7.039s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_euler_to_quaternion.py
+[7.049s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_euler_to_quaternion_s.c
+[7.059s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_quaternion_to_euler.py
+[7.069s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_quaternion_to_euler_s.c
+[7.080s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.080s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.080s] -- Up-to-date symlink: /home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/parrot_v1_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.080s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/AddTwoInts.idl
+[7.090s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/EulerToQuaternion.idl
+[7.100s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/QuaternionToEuler.idl
+[7.110s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/action/Fibonacci.idl
+[7.121s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/AddTwoInts.srv
+[7.132s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/AddTwoInts_Request.msg
+[7.143s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/AddTwoInts_Response.msg
+[7.153s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/EulerToQuaternion.srv
+[7.164s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/EulerToQuaternion_Request.msg
+[7.174s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/EulerToQuaternion_Response.msg
+[7.184s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/QuaternionToEuler.srv
+[7.194s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/QuaternionToEuler_Request.msg
+[7.204s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/srv/QuaternionToEuler_Response.msg
+[7.215s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/action/Fibonacci.action
+[7.226s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/ament_index/resource_index/package_run_dependencies/parrot_v1_msgs
+[7.237s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/ament_index/resource_index/parent_prefix_path/parrot_v1_msgs
+[7.247s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/ament_prefix_path.sh
+[7.258s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/ament_prefix_path.dsv
+[7.268s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/path.sh
+[7.278s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/environment/path.dsv
+[7.288s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/local_setup.bash
+[7.298s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/local_setup.sh
+[7.308s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/local_setup.zsh
+[7.319s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/local_setup.dsv
+[7.330s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/package.dsv
+[7.340s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/ament_index/resource_index/packages/parrot_v1_msgs
+[7.350s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/rosidl_cmake-extras.cmake
+[7.360s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.370s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.379s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.389s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.399s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.409s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.420s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgsConfig.cmake
+[7.431s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgsConfig-version.cmake
+[7.441s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/package.xml
+[7.451s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_generator_c.so
+[7.452s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_generator_c.so" to ""
+[7.452s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_fastrtps_c.so
+[7.452s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.452s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.453s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.453s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_introspection_c.so
+[7.453s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.453s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_c.so
+[7.453s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_c.so" to ""
+[7.454s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_introspection_cpp.so
+[7.454s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.454s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_cpp.so
+[7.454s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_typesupport_cpp.so" to ""
+[7.495s] Listing '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs'...
+[7.495s] Compiling '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/__init__.py'...
+[7.495s] Listing '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/action'...
+[7.495s] Compiling '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/action/__init__.py'...
+[7.495s] Compiling '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/action/_fibonacci.py'...
+[7.495s] Listing '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv'...
+[7.495s] Compiling '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/__init__.py'...
+[7.496s] Compiling '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_add_two_ints.py'...
+[7.496s] Compiling '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_euler_to_quaternion.py'...
+[7.496s] Compiling '/home/om/parrot_ws/src/install/parrot_v1_msgs/local/lib/python3.10/dist-packages/parrot_v1_msgs/srv/_quaternion_to_euler.py'...
+[7.499s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_generator_py.so
+[7.500s] -- Set runtime path of "/home/om/parrot_ws/src/install/parrot_v1_msgs/lib/libparrot_v1_msgs__rosidl_generator_py.so" to ""
+[7.500s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_generator_cExport.cmake
+[7.500s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.500s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.500s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.500s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_generator_cppExport.cmake
+[7.500s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.501s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.501s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.501s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.501s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_cExport.cmake
+[7.501s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.501s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.502s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.502s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_cppExport.cmake
+[7.502s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/parrot_v1_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.502s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_generator_pyExport.cmake
+[7.502s] -- Installing: /home/om/parrot_ws/src/install/parrot_v1_msgs/share/parrot_v1_msgs/cmake/export_parrot_v1_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.505s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/om/parrot_ws/src/build/parrot_v1_msgs

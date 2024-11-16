@@ -1,0 +1,1 @@
+/home/om/parrot_ws/src/build/parrot_v1_controller/ament_cmake_environment_hooks/local_setup.zsh

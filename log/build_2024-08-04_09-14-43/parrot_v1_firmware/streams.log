@@ -1,0 +1,81 @@
+[0.028s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/om/parrot_ws/src/parrot_v1_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/om/parrot_ws/src/install/parrot_v1_firmware
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.208s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.302s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.402s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.412s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.803s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.863s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.953s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.960s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.054s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.067s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.082s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.240s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.247s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.386s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.429s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.516s] -- Looking for pthread.h
+[1.589s] -- Looking for pthread.h - found
+[1.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.663s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.664s] -- Found Threads: TRUE  
+[1.812s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.812s] -- Checking for module 'libserial'
+[1.829s] --   Found libserial, version 1.0.0
+[1.876s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.975s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.975s] -- Configured cppcheck include dirs: /home/om/parrot_ws/src/parrot_v1_firmware/
+[1.975s] -- Configured cppcheck exclude dirs and/or files: 
+[1.976s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.977s] -- Added test 'lint_cmake' to check CMake code style
+[1.978s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.980s] -- Added test 'uncrustify' to check C / C++ code style
+[1.980s] -- Configured uncrustify additional arguments: 
+[1.981s] -- Added test 'xmllint' to check XML markup files
+[1.983s] -- Configuring done
+[1.994s] -- Generating done
+[1.995s] -- Build files have been written to: /home/om/parrot_ws/src/build/parrot_v1_firmware
+[2.005s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/om/parrot_ws/src/parrot_v1_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/om/parrot_ws/src/install/parrot_v1_firmware
+[2.007s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/om/parrot_ws/src/build/parrot_v1_firmware -- -j16 -l16
+[2.061s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[2.061s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[6.461s] [ 75%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[6.649s] [ 75%] Built target simple_serial_receiver
+[9.532s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[9.828s] [100%] Built target simple_serial_transmitter
+[9.840s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/om/parrot_ws/src/build/parrot_v1_firmware -- -j16 -l16
+[9.875s] Invoking command in '/home/om/parrot_ws/src/build/parrot_v1_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/om/parrot_ws/src/build/parrot_v1_firmware
+[9.882s] -- Install configuration: ""
+[9.883s] -- Execute custom install script
+[9.883s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/bin/simple_serial_transmitter
+[9.893s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/bin/simple_serial_receiver
+[9.904s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/lib/parrot_v1_firmware/simple_serial_transmitter.py
+[9.914s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/lib/parrot_v1_firmware/simple_serial_receiver.py
+[9.925s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/ament_index/resource_index/package_run_dependencies/parrot_v1_firmware
+[9.934s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/ament_index/resource_index/parent_prefix_path/parrot_v1_firmware
+[9.944s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/environment/ament_prefix_path.sh
+[9.954s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/environment/ament_prefix_path.dsv
+[9.963s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/environment/path.sh
+[9.973s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/environment/path.dsv
+[9.984s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/local_setup.bash
+[9.995s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/local_setup.sh
+[10.005s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/local_setup.zsh
+[10.016s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/local_setup.dsv
+[10.025s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/package.dsv
+[10.035s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/ament_index/resource_index/packages/parrot_v1_firmware
+[10.045s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/cmake/parrot_v1_firmwareConfig.cmake
+[10.055s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/cmake/parrot_v1_firmwareConfig-version.cmake
+[10.065s] -- Symlinking: /home/om/parrot_ws/src/install/parrot_v1_firmware/share/parrot_v1_firmware/package.xml
+[10.077s] Invoked command in '/home/om/parrot_ws/src/build/parrot_v1_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/navros_ws/install/serial_motor_demo:/home/om/parrot_ws/install/parrot_v1_examples:/home/om/parrot_ws/install/parrot_v1_comms_test:/home/om/ros2_udemy_manipulator_ws/install/arduinobot_py_examples:/home/om/ros2_ws/install/turtlesim_catch_them_all:/home/om/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/om/parrot_ws/src/build/parrot_v1_firmware

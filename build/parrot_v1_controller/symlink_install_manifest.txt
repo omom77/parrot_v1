@@ -1,0 +1,16 @@
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller//config/parrot_v1_controller.yaml
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/ament_index/resource_index/package_run_dependencies/parrot_v1_controller
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/ament_index/resource_index/parent_prefix_path/parrot_v1_controller
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/environment/ament_prefix_path.sh
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/environment/ament_prefix_path.dsv
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/environment/path.sh
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/environment/path.dsv
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/local_setup.bash
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/local_setup.sh
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/local_setup.zsh
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/local_setup.dsv
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/package.dsv
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/ament_index/resource_index/packages/parrot_v1_controller
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/cmake/parrot_v1_controllerConfig.cmake
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/cmake/parrot_v1_controllerConfig-version.cmake
+/home/om/parrot_ws/src/install/parrot_v1_controller/share/parrot_v1_controller/package.xml

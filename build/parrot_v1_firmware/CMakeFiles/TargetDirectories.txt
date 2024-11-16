@@ -1,0 +1,11 @@
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/uninstall.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/parrot_v1_firmware_uninstall.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/simple_serial_transmitter.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/simple_serial_receiver.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/test.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/edit_cache.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/rebuild_cache.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/list_install_components.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/install.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/install/local.dir
+/home/om/parrot_ws/src/build/parrot_v1_firmware/CMakeFiles/install/strip.dir
